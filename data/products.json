@@ -1,0 +1,91 @@
+[
+  {
+    "id": "p1",
+    "name": "NIKE Air ZOOM Mercurial Vapor 16",
+    "description": "Chaussure de football haute performance.",
+    "price": 25000,
+    "currencySymbol": "XAF",
+    "imageUrl": "bot2.jpg",
+    "sizes": ["41", "42", "43", "44"]
+  },
+  {
+    "id": "p2",
+    "name": "NIKE Mercurial ZOOM Superfly Elite FG",
+    "description": "Modèle Elite FG pour terrain ferme.",
+    "price": 25000,
+    "currencySymbol": "XAF",
+    "imageUrl": "bot.jpg",
+    "sizes": ["38", "39", "40", "41", "42", "43"]
+  },
+  {
+    "id": "p3",
+    "name": "PREDATOR Elite Fold",
+    "description": "Contrôle et précision pour le jeu.",
+    "price": 25000,
+    "currencySymbol": "XAF",
+    "imageUrl": "bot1.jpg",
+    "sizes": ["39", "40", "41", "42", "43", "44"]
+  },
+  {
+    "id": "p4",
+    "name": "Adidas F50",
+    "description": "Bottine légère pour vitesse et accélération.",
+    "price": 25000,
+    "currencySymbol": "XAF",
+    "imageUrl": "bottine.jpg",
+    "sizes": ["40", "41", "42", "43", "44"]
+  },
+  {
+    "id": "p5",
+    "name": "NIKE Air Zoom Mercurial",
+    "description": "Chaussure performante et confortable.",
+    "price": 25000,
+    "currencySymbol": "XAF",
+    "imageUrl": "bot3.jpg",
+    "sizes": ["39", "40", "41", "42", "43", "44"]
+  },
+  {
+    "id": "p6",
+    "name": "Adidas F50 Elite",
+    "description": "Version Elite de la gamme F50.",
+    "price": 250000,
+    "currencySymbol": "XAF",
+    "imageUrl": "bot4.jpg",
+    "sizes": ["40", "41", "42", "43", "44", "45"]
+  },
+  {
+    "id": "p7",
+    "name": "Ensemble sport NIKE",
+    "description": "Tenue complète de sport NIKE.",
+    "price": 25000,
+    "currencySymbol": "XAF",
+    "imageUrl": "ens.jpg",
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "p8",
+    "name": "Complet",
+    "description": "Complet sport prêt a porter.",
+    "price": 250000,
+    "currencySymbol": "XAF",
+    "imageUrl": "com.jpg",
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "p9",
+    "name": "Sac NIKE",
+    "description": "Sac de sport pratique et robuste.",
+    "price": 15000,
+    "currencySymbol": "XAF",
+    "imageUrl": "sac1.jpg"
+  },
+  {
+    "id": "p10",
+    "name": "Protege tibia Nike/Adidas",
+    "description": "Protection essentielle pour les matchs.",
+    "price": 2500,
+    "currencySymbol": "XAF",
+    "imageUrl": "pro.jpg"
+  }
+]
+

@@ -1,0 +1,1 @@
+{"orderId":"ORD-1776342917264-929","createdAt":"2026-04-16T12:35:17.264Z","shop":"Ma Boutique","customer":{"name":"Test","phone":"+241700000000","city":"Libreville","address":"","notes":""},"items":[{"productId":"p1","quantity":2,"size":"M"}],"payment":{"method":"Airtel Money","afterConfirmation":true}}

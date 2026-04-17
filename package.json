@@ -1,0 +1,13 @@
+{
+  "name": "football-shop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Petit site e-commerce foot (catalogue + commande WhatsApp)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server-native.js",
+    "start": "node server-native.js"
+  }
+}
+

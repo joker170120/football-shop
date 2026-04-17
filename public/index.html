@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shop Foot - Commandes WhatsApp</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <div class="brand">
+          <div class="brand__title">Shop Foot</div>
+          <div class="brand__subtitle">Catalogue + commande rapide</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero__text">
+          <h1>Commandez vos affaires de foot</h1>
+          <p>Remplissez le formulaire, puis votre WhatsApp s’ouvrira avec le détail de la commande.</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card__header">
+          <h2>Catalogue</h2>
+          <input id="search" class="input" type="search" placeholder="Rechercher (ex: maillot, chaussure...)" />
+        </div>
+        <div id="products" class="grid"></div>
+      </section>
+
+      <section class="card card--sticky">
+        <div class="card__header">
+          <h2>Votre commande</h2>
+        </div>
+
+        <div class="cart" id="cart">
+          <p class="muted">Ajoutez des produits depuis le catalogue.</p>
+        </div>
+
+        <form id="orderForm" class="form" autocomplete="on">
+          <h3 class="form__title">Infos client</h3>
+
+          <div class="form__row">
+            <label class="label">
+              Nom complet
+              <input name="name" class="input" required />
+            </label>
+            <label class="label">
+              Téléphone (WhatsApp)
+              <input name="phone" class="input" required placeholder="+241..." />
+            </label>
+          </div>
+
+          <div class="form__row">
+            <label class="label">
+              Ville
+              <input name="city" class="input" required />
+            </label>
+            <label class="label">
+              Adresse (optionnel)
+              <input name="address" class="input" />
+            </label>
+          </div>
+
+          <label class="label">
+            Notes (optionnel)
+            <textarea name="notes" class="textarea" rows="3" placeholder="Ex: couleur préférée, horaires..." ></textarea>
+          </label>
+
+          <input type="hidden" name="itemsJson" id="itemsJson" />
+
+          <div class="form__actions">
+            <button id="clearBtn" class="btn btn--ghost" type="button">Vider</button>
+            <button id="submitBtn" class="btn" type="submit" disabled>
+              Commander (ouvrir WhatsApp)
+            </button>
+          </div>
+
+          <p id="status" class="status" role="status"></p>
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="muted">
+          Paiement : après confirmation via Airtel Money.
+        </div>
+      </footer>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
+
